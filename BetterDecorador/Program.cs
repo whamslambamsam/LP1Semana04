@@ -4,9 +4,15 @@ namespace BetterDecorador
 {
     public class Program
     {
-        private static void Main(string[] args)
+        static string Decor(string s, char dec, int n)
         {
-            Console.WriteLine("Hello LP!");
+            string deco = new(dec, n);
+            return $"{deco} {s} {deco}";
+        }
+
+        static void Main(string[] args)
+        {
+
         }
     }
 }
