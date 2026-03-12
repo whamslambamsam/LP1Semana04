@@ -17,6 +17,10 @@ namespace BetterDecorador
             return $"{deco} {s} {deco}";
         }
 
+        /// <summary>
+        /// Prints out the string given by the Decor method.
+        /// </summary>
+        /// <param name="args"></param>The elements inputted in the console.
         static void Main(string[] args)
         {
             string line = args[0];
