@@ -4,6 +4,13 @@ namespace BetterDecorador
 {
     public class Program
     {
+        /// <summary>
+        /// Gives a template for how the sentence will be written.
+        /// </summary>
+        /// <param name="s"></param>The string that'll be used.
+        /// <param name="dec"></param>The character that will be used.
+        /// <param name="n"></param>The number of times the character will be printed.
+        /// <returns></returns>The template with the inputs given.
         static string Decor(string s, char dec, int n)
         {
             string deco = new(dec, n);
